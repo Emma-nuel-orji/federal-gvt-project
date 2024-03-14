@@ -954,10 +954,11 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
     font-size: 28px;
 }
 .breadcrumb-item+.breadcrumb-item::before {
+    /* width: 50%; */
     float: left;
-    padding-right: .5rem;
+    padding-right: .6rem;
     color:var(--primary-color);
-    content: var(--bs-breadcrumb-divider, "https://html.themability.com/");
+    
     font-weight: 500;
 }
 .breadcrumb a {
